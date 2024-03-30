@@ -13,7 +13,7 @@ body{
     width: 200px;
     padding: 24px;
     border-right: 1px solid lightgrey;
-    background-color: bisque;
+    /* background-color: bisque; */
     /* position: fixed;
     top: 0;
     left: 0; */
@@ -45,7 +45,21 @@ body{
     top: 24px;
 }
 .right-container{
-    height: 2000px;
-    background-color: black;
-    width:100px;
+    /* height: 2000px; */
+    /* background-color: black;
+    width:100px; */
+}
+.right-top-profile-widget{
+    display: flex;
+    align-items: center;
+    margin: 0px 175px;
+}
+.google-logo{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgrey;
+}
+.profile-content{
+    display: flex;
 }
